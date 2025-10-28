@@ -50,3 +50,56 @@ img.profile {
   width: 200px;
   margin-top: 20px;
 }
+/* Pastel floating bubbles */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 0;
+  animation: float 20s infinite ease-in-out;
+}
+
+.bubble:nth-child(1) {
+  width: 120px; height: 120px;
+  background: #fce1e4;
+  top: 10%; left: 15%;
+  animation-duration: 25s;
+}
+.bubble:nth-child(2) {
+  width: 200px; height: 200px;
+  background: #e0f7fa;
+  top: 40%; left: 70%;
+  animation-duration: 30s;
+}
+.bubble:nth-child(3) {
+  width: 150px; height: 150px;
+  background: #f3e5f5;
+  top: 70%; left: 30%;
+  animation-duration: 35s;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-40px); }
+  100% { transform: translateY(0); }
+}
+
+/* Bubble buttons */
+.bubble-button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #fce1e4, #e0f7fa);
+  color: #7e57c2;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  z-index: 2;
+}
+.bubble-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
