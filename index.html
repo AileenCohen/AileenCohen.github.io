@@ -3,93 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Aileen Cohen</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Arial", sans-serif;
-      background: #fdfdfe; /* light pastel base */
-      color: #444;
-      text-align: center;
-      padding: 50px;
-      overflow: hidden; /* so bubbles don’t scroll */
-    }
-
-    h1 {
-      color: #7e57c2;
-    }
-
-    p {
-      color: #5c6bc0;
-      font-size: 18px;
-    }
-
-    img {
-      border-radius: 50%;
-      border: 5px solid #f8bbd0;
-      width: 200px;
-      margin-top: 20px;
-      position: relative;
-      z-index: 2; /* keep above bubbles */
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.7);
-      border-radius: 15px;
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 500px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      position: relative;
-      z-index: 2;
-    }
-
-    /* Bubble styles */
-    .bubble {
-      position: absolute;
-      border-radius: 50%;
-      opacity: 0.6;
-      z-index: 1;
-      animation: float 20s infinite;
-    }
-
-    .bubble:nth-child(1) {
-      width: 120px; height: 120px;
-      background: #fce1e4;
-      top: 10%; left: 15%;
-      animation-duration: 25s;
-    }
-
-    .bubble:nth-child(2) {
-      width: 200px; height: 200px;
-      background: #e0f7fa;
-      top: 40%; left: 70%;
-      animation-duration: 30s;
-    }
-
-    .bubble:nth-child(3) {
-      width: 150px; height: 150px;
-      background: #f3e5f5;
-      top: 70%; left: 30%;
-      animation-duration: 35s;
-    }
-
-    @keyframes float {
-      0% { transform: translateY(0) }
-      50% { transform: translateY(-40px) }
-      100% { transform: translateY(0) }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Pastel bubbles in background -->
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="https://x.com/AileenCohen16" target="_blank">X</a></li>
+      <li><a href="https://il.linkedin.com/in/aileen-cohen-28b13937b" target="_blank">LinkedIn</a></li>
+    </ul>
+  </nav>
 
-  <h1>Welcome to My Pastel Page 🌸</h1>
-  <img src="profile.png" alt="My Profile Picture">
+  <h1>Molecular biology, systems biology and gene regulation 🌸</h1>
+  <img src="profile.png" alt="My Profile Picture" class="profile">
   <div class="card">
-    <p>Hello, I’m Aileen!</p>
+    <p>==</p>
   </div>
 </body>
 </html>
