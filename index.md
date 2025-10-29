@@ -7,7 +7,7 @@ title: Home
 
 # Welcome!
 
-Hi, I’m **Aileen Cohen**, a Phd student studying systems and molecular biology.  
+Hi, I’m **Aileen Cohen**, a PhD student studying systems and molecular biology.  
 I’m fascinated by *gene regulation*, *space biology*, and the complexities of *human nature*.
 
 This site is my small corner of the web where you can explore my research, publications, projects, and passions.
