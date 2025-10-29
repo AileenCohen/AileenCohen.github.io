@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-![Profile Picture](profile.jpg)
+
 
 # About Me
 
