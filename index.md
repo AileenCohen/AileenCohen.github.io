@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-![Profile Picture](profile.jpeg)
+<img src="profile.jpeg" alt="Profile Picture" class="profile">
 
 # Welcome!
 
